@@ -1,0 +1,125 @@
+\documentclass{SOICTthesis}  % Load the custom class
+
+% Thesis Information
+\thesistitle{Your Thesis Title Here}
+\degree{DEGREE NAME}
+\program{PROGRAM NAME}
+\specialization{SPECIALIZATION}
+\authorname{Your Name}
+\enrollmentno{Your Enrollment Number}
+\supervisor{Supervisor Name}{Designation, Department}
+\university{University Name}
+\submissiondate{Month Year}
+
+\RequirePackage{lipsum}     % Dummy text (for testing)
+
+\begin{document}
+
+% Abstract
+\theabstract{
+    \lipsum[1-2]  % Dummy abstract text
+}
+
+% Chapters
+\chapter{INTRODUCTION}
+\section{Background}
+\lipsum[3-5]  % Dummy text for background
+\cite{b1, b3}
+
+\section{Problem Statement}
+\lipsum[6-7]
+\cite{b2, b4}
+
+\section{Research Objectives}
+List the main objectives of your study in bullet points.
+\begin{itemize}
+    \item \lipsum[8]
+    \item \lipsum[9]
+    \item \lipsum[10]
+\end{itemize}
+
+\section{Scope of Study}
+\lipsum[11-12]
+
+\chapter{LITERATURE REVIEW}
+\section{Introduction}
+\lipsum[13-15]
+\cite{b5, b7}
+
+\section{Existing Approaches}
+\lipsum[16-18]
+\cite{b6, b8}
+
+\section{Research Gaps}
+\lipsum[19-21]
+
+\chapter{METHODOLOGY}
+\section{Proposed Approach}
+\lipsum[22-24]
+\cite{b9}
+
+\section{System Architecture}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\linewidth]{Assets/system_architecture.png}  % Dummy image placeholder
+    \caption{System Architecture Diagram}
+    \label{fig:system_architecture}
+\end{figure}
+
+\section{Implementation Details}
+\lipsum[25-27]
+
+\chapter{EXPERIMENTAL SETUP AND RESULTS}
+\section{Experimental Testbed}
+\lipsum[28-30]
+
+\begin{table}[H]
+\centering
+\caption{Experimental Setup}
+\begin{tabular}{|l|l|}
+    \hline
+    \textbf{Component} & \textbf{Specification} \\
+    \hline
+    CPU & Example Processor \\
+    RAM & Example Memory \\
+    OS  & Example OS \\
+    \hline
+\end{tabular}
+\end{table}
+
+\section{Performance Evaluation}
+\lipsum[31-33]
+\cite{b10, b11}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\linewidth]{Assets/performance_graph.png}  % Dummy image placeholder
+    \caption{Performance Evaluation Graph}
+    \label{fig:performance_graph}
+\end{figure}
+
+\chapter{DISCUSSION}
+\section{Findings Analysis}
+\lipsum[34-36]
+
+\section{Comparison with Existing Approaches}
+\lipsum[37-39]
+\cite{b12}
+
+\chapter{CONCLUSION}
+\section{Summary of Findings}
+\lipsum[40-42]
+
+\section{Limitations and Future Work}
+\lipsum[43-45]
+
+% References
+\bibliographystyle{plain}
+\bibliography{bibliography/references}
+
+% Appendices (Optional)
+%\appendix
+%\chapter{Appendix A}
+%\include{Appendices/AppendixA}
+
+\end{document}

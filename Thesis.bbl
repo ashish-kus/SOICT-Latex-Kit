@@ -1,0 +1,63 @@
+\begin{thebibliography}{10}
+
+\bibitem{b12}
+Y.~Chen, N.~Zhang, Y.~Zhang, X.~Chen, W.~Wu, and X.~S. Shen.
+\newblock Toffee: Task offloading and frequency scaling for energy efficiency of mobile devices in mobile edge computing.
+\newblock {\em IEEE Transactions on Cloud Computing}, 9(4):1634--1644, Oct.--Dec. 2021.
+
+\bibitem{b7}
+Y.-L. Chen, M.-F. Chang, C.-W. Yu, X.-Z. Chen, and W.-Y. Liang.
+\newblock Learning-directed dynamic voltage and frequency scaling scheme with adjustable performance for single-core and multi-core embedded and mobile systems.
+\newblock {\em Sensors}, 18(9):3068, 2018.
+
+\bibitem{b9}
+G.~Fortino, C.~Savaglio, G.~Spezzano, and M.~Zhou.
+\newblock Internet of things as system of systems: A review of methodologies, frameworks, platforms, and tools.
+\newblock {\em IEEE Transactions on Systems, Man, and Cybernetics: Systems}, 51(1):223--236, Jan. 2021.
+
+\bibitem{b13}
+S.~Hajiamini, B.~Shirazi, A.~Crandall, and H.~Ghasemzadeh.
+\newblock A dynamic programming framework for dvfs-based energy-efficiency in multicore systems.
+\newblock {\em IEEE Transactions on Sustainable Computing}, 5(1):1--12, Jan.--Mar. 2020.
+
+\bibitem{b14}
+D.~Huang, L.~Costero, and D.~Atienza.
+\newblock Is the powersave governor really saving power?
+\newblock In {\em Proc. IEEE 24th Int. Symp. on Cluster, Cloud and Internet Computing (CCGrid)}, pages 273--283, 2024.
+
+\bibitem{b6}
+M.~P. Karpowicz, P.~Arabas, and E.~Niewiadomska-Szynkiewicz.
+\newblock Design and implementation of energy-aware application-specific cpu frequency governors for heterogeneous distributed computing systems.
+\newblock {\em Future Generation Computer Systems}, 56:152--165, 2016.
+
+\bibitem{b8}
+R.~Keerthi.
+\newblock Frequency scaling of cpu by utilization.
+\newblock {\em International Journal of Scientific and Engineering Research}, 5(8):641--645, 2014.
+
+\bibitem{b15}
+M.~Kumar, S.~Sran, L.~Kaur, and J.~Singh.
+\newblock Thermal aware learning based cpu governor.
+\newblock {\em Concurrency and Computation: Practice and Experience}, 34(2), 2022.
+
+\bibitem{b10}
+Y.~Luo, L.~Pu, and C.-H. Liu.
+\newblock Cpu frequency scaling optimization in sustainable edge computing.
+\newblock {\em IEEE Transactions on Sustainable Computing}, 8(2):194--207, Apr.--Jun. 2023.
+
+\bibitem{b11}
+C.~Paniagua and J.~Delsing.
+\newblock Industrial frameworks for internet of things: A survey.
+\newblock {\em IEEE Systems Journal}, 15(1):1149--1159, Mar. 2021.
+
+\bibitem{b5}
+V.~Spiliopoulos, S.~Kaxiras, and G.~Keramidas.
+\newblock Green governors: A framework for continuously adaptive dvfs.
+\newblock {\em IEEE Transactions on Computers}, 61(10):1484--1498, 2011.
+
+\bibitem{b2}
+L.~Zhou, Q.~Lv, and S.~Guo.
+\newblock A generic linux cpufreq driver for arm socs.
+\newblock {\em International Journal of Online Engineering}, 9(6):29--33, 2013.
+
+\end{thebibliography}
