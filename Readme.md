@@ -6,9 +6,7 @@
 
 ## 🖼️ Preview
 
-![Thesis Template Preview](Assets/preview.png)
-
-> _(Replace `Assets/preview.png` with an actual screenshot of the compiled thesis)_
+![Thesis Template Preview](./Assets/Preview.png)
 
 ## 🎯 Who Is This For?
 
