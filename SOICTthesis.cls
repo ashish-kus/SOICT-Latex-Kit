@@ -7,6 +7,8 @@
 
 % ----- Load Base Class -----
 \LoadClass[a4paper,12pt]{report}  % Report class is suitable for theses
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
 
 % ----- Required Packages -----
 \RequirePackage[left=2.5cm, right=1.5cm, top=1in, bottom=1in]{geometry} % Margins
