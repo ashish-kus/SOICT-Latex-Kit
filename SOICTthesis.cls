@@ -4,12 +4,11 @@
 \usepackage{algorithm}
 \usepackage{algpseudocode} 
 \usepackage{float}
-
+\usepackage{amsmath}
 % ----- Load Base Class -----
 \LoadClass[a4paper,12pt]{report}  % Report class is suitable for theses
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{6pt}
-
 % ----- Required Packages -----
 \RequirePackage[left=2.5cm, right=1.5cm, top=1in, bottom=1in]{geometry} % Margins
 \RequirePackage{titlesec}   % Formatting chapters and sections
@@ -24,7 +23,10 @@
 \onehalfspacing             % 1.5 line spacing
 \RequirePackage{ragged2e}  % Better justification
 
-\AtBeginDocument{\justifying}  % ✅ Automatically justifies all text
+\AtBeginDocument{
+    \justifying  % ✅ Ensures text justification
+}
+
 % ----- Title Page Commands -----
 \newcommand{\thesistitle}[1]{\def\@thesistitle{#1}}
 \newcommand{\authorname}[1]{\def\@authorname{#1}}
@@ -163,12 +165,12 @@
     \end{flushright}
 }
 
+
 \newcommand{\generateFrontMatter}{%
   \pagenumbering{roman}
   \maketitle
   \candidateDeclaration
   \acknowledgement
-  \thesisabstract
   \startTOC
 }
 % ----- Abstract Page -----
@@ -185,6 +187,7 @@
     #1
     \vspace{1in}
 }
+
 
 % ----- Table of Contents, List of Abbreviations, Figures, and Tables Formatting -----
 \renewcommand{\contentsname}{}
@@ -257,37 +260,33 @@
     \vspace{-2cm}
     \listoftables
 }
-% ----- Custom Chapter Formatting -----
 
-% Define a custom chapter format
+% ----- Custom Chapter Formatting -----
 \titleformat{\chapter}[display]
   {\normalfont\Huge\bfseries\centering}
   {CHAPTER-\thechapter}{0pt}{\Huge\bfseries\centering\MakeUppercase}
-
-% Set chapter spacing to center vertically
 \titlespacing*{\chapter}{0pt}{\fill}{\fill}
-
-% Ensure chapters start on their own page with content on the next page
 \let\oldchapter\chapter
-\renewcommand{\chapter}[1]{%
+\renewcommand{\chapter}[1]{
     \clearpage
-    \ifnum\value{chapter}=0  % ✅ If this is the first chapter
-        \pagenumbering{arabic}  % ✅ Use Arabic numbering
-        \setcounter{page}{1}  % ✅ Start numbering from page 1
+    \ifnum\value{chapter}=0
+        \pagenumbering{arabic}
+        \setcounter{page}{1} 
     \fi
-    \oldchapter{#1}  % ✅ Display the chapter title
-    \thispagestyle{empty}  % ✅ Hide page number on the chapter title page
-    \clearpage  % ✅ Move to the next page for content
-    \addtocounter{page}{-1}  % ✅ Keep the page count but do not display the number
-    \thispagestyle{plain}  % ✅ Show page number on the first content page
+    \oldchapter{#1}
+    \thispagestyle{empty}
+    \clearpage
+    \thispagestyle{plain}
 }
 
-% ----- End of TOC Formatting -----
 % Biblography Formatting
 \makeatletter
+\renewcommand{\bibname}{REFERENCES} % Changes "Bibliography" to "REFERENCES" and centers it
 \patchcmd{\thebibliography}{\chapter*}{\section*}{}{}
 \makeatother
+% ------ MISC changes ___________
 
 % ----- End of Class -----
 \endinput
+
 
