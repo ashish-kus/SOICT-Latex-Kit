@@ -266,20 +266,22 @@
 
 % Set chapter spacing to center vertically
 \titlespacing*{\chapter}{0pt}{\fill}{\fill}
-% Ensure chapters start on their own page with content from next page
 
+% Ensure chapters start on their own page with content on the next page
 \let\oldchapter\chapter
 \renewcommand{\chapter}[1]{%
     \clearpage
     \ifnum\value{chapter}=0  % ✅ If this is the first chapter
-        \pagenumbering{arabic}  % ✅ Switch to Arabic numbering
-        \setcounter{page}{1}  % ✅ Start page count from 1
+        \pagenumbering{arabic}  % ✅ Use Arabic numbering
+        \setcounter{page}{1}  % ✅ Start numbering from page 1
     \fi
-    \thispagestyle{empty}  % ✅ Hide page number on chapter title page
-    \oldchapter{#1}  % ✅ Display chapter title on a separate page
-    \clearpage  % ✅ Ensure content starts on a new page
-    \thispagestyle{plain}  % ✅ Show page number on content pages
+    \oldchapter{#1}  % ✅ Display the chapter title
+    \thispagestyle{empty}  % ✅ Hide page number on the chapter title page
+    \clearpage  % ✅ Move to the next page for content
+    \addtocounter{page}{-1}  % ✅ Keep the page count but do not display the number
+    \thispagestyle{plain}  % ✅ Show page number on the first content page
 }
+
 % ----- End of TOC Formatting -----
 % Biblography Formatting
 \makeatletter
