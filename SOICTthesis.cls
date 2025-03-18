@@ -280,7 +280,9 @@
 }
 % ----- End of TOC Formatting -----
 % Biblography Formatting
-
+\makeatletter
+\patchcmd{\thebibliography}{\chapter*}{\section*}{}{}
+\makeatother
 
 % ----- End of Class -----
 \endinput
