@@ -1,5 +1,10 @@
 \begin{thebibliography}{10}
 
+\bibitem{b1}
+B.~Bylina, J.~Bylina, and M.~Piekarz.
+\newblock Impact of processor frequency scaling on performance and energy consumption for wz factorization on multicore architecture.
+\newblock In {\em Proceedings of the FEDCSIS}, pages 377--383, 2023.
+
 \bibitem{b12}
 Y.~Chen, N.~Zhang, Y.~Zhang, X.~Chen, W.~Wu, and X.~S. Shen.
 \newblock Toffee: Task offloading and frequency scaling for energy efficiency of mobile devices in mobile edge computing.
@@ -15,15 +20,10 @@ G.~Fortino, C.~Savaglio, G.~Spezzano, and M.~Zhou.
 \newblock Internet of things as system of systems: A review of methodologies, frameworks, platforms, and tools.
 \newblock {\em IEEE Transactions on Systems, Man, and Cybernetics: Systems}, 51(1):223--236, Jan. 2021.
 
-\bibitem{b13}
-S.~Hajiamini, B.~Shirazi, A.~Crandall, and H.~Ghasemzadeh.
-\newblock A dynamic programming framework for dvfs-based energy-efficiency in multicore systems.
-\newblock {\em IEEE Transactions on Sustainable Computing}, 5(1):1--12, Jan.--Mar. 2020.
-
-\bibitem{b14}
-D.~Huang, L.~Costero, and D.~Atienza.
-\newblock Is the powersave governor really saving power?
-\newblock In {\em Proc. IEEE 24th Int. Symp. on Cluster, Cloud and Internet Computing (CCGrid)}, pages 273--283, 2024.
+\bibitem{b3}
+F.~M.~M. Islam and M.~Lin.
+\newblock A framework for learning-based dvfs technique selection and frequency scaling for multi-core real-time systems.
+\newblock In {\em Proc. IEEE Int. Conf. High Performance Computing and Communications}, pages 721--726, 2015.
 
 \bibitem{b6}
 M.~P. Karpowicz, P.~Arabas, and E.~Niewiadomska-Szynkiewicz.
@@ -34,11 +34,6 @@ M.~P. Karpowicz, P.~Arabas, and E.~Niewiadomska-Szynkiewicz.
 R.~Keerthi.
 \newblock Frequency scaling of cpu by utilization.
 \newblock {\em International Journal of Scientific and Engineering Research}, 5(8):641--645, 2014.
-
-\bibitem{b15}
-M.~Kumar, S.~Sran, L.~Kaur, and J.~Singh.
-\newblock Thermal aware learning based cpu governor.
-\newblock {\em Concurrency and Computation: Practice and Experience}, 34(2), 2022.
 
 \bibitem{b10}
 Y.~Luo, L.~Pu, and C.-H. Liu.

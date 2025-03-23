@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.3.7)  24 MAR 2025 01:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.3.7)  24 MAR 2025 01:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -522,16 +522,6 @@ Chapter 1.
 
 ]
 
-LaTeX Warning: Citation `b1' on page 2 undefined on input line 49.
-
-
-LaTeX Warning: Citation `b3' on page 2 undefined on input line 49.
-
-
-LaTeX Warning: Citation `b4' on page 2 undefined on input line 53.
-
-
-
 [2
 
 ]
@@ -614,26 +604,22 @@ Chapter 6.
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
 (rerunfilecheck)             Checksum: E9B942E7B4F0DF961352917D432615E6;3167.
  ) 
 Here is how much of TeX's memory you used:
- 12500 strings out of 473201
- 195519 string characters out of 5691119
- 705782 words of memory out of 5000000
- 35500 multiletter control sequences out of 15000+600000
+ 12498 strings out of 473201
+ 195502 string characters out of 5691119
+ 705754 words of memory out of 5000000
+ 35499 multiletter control sequences out of 15000+600000
  576617 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  94i,8n,107p,509b,561s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </opt/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></opt/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></opt/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Thesis.pdf (28 pages, 112312 bytes).
+Output written on Thesis.pdf (28 pages, 111675 bytes).
 PDF statistics:
- 294 PDF objects out of 1000 (max. 8388607)
- 252 compressed objects within 3 object streams
- 63 named destinations out of 1000 (max. 500000)
+ 295 PDF objects out of 1000 (max. 8388607)
+ 253 compressed objects within 3 object streams
+ 62 named destinations out of 1000 (max. 500000)
  182 words of extra memory for PDF output out of 10000 (max. 10000000)
 
