@@ -1,6 +1,17 @@
-\documentclass{SOICTthesis}  % Load the custom class
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%         Gautam Buddha University, Greater Noida, Utter Pradesh 
+%                      https://gbu.ac.in
+%          SOICT M.Tech  Thesis Template — Custom LaTeX Class
+%         Created by: [Your Name] — Share & Improve via GitHub
+%    GitHub Repository: https://github.com/ashish-kus/SOICT-Latex-Kit
+%    author : Ashish Kushwaha , ashish.kus2408@gmain.com, 7525874187
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-% Thesis Information
+\documentclass{SOICTthesis}  % Load your custom thesis class (.cls file)
+
+% ========================
+% Thesis Information Setup
+% ========================
 \thesistitle{Your Thesis Title Here}
 \degree{DEGREE NAME}
 \program{PROGRAM NAME}
@@ -11,19 +22,30 @@
 \university{University Name}
 \submissiondate{Month Year}
 
-\RequirePackage{lipsum}     % Dummy text (for testing)
+% ================
+% Packages
+% ================
+\RequirePackage{lipsum}     % For generating dummy placeholder text (optional)
 
 \begin{document}
 
-% Abstract
+% ====================
+% Abstract Section
+% ====================
+% Set your abstract inside the \theabstract{} command.
 \theabstract{
-    \lipsum[1-2]  % Dummy abstract text
+    \lipsum[1-2]  % Replace with your real abstract
 }
 
-% Chapters
+% ====================
+% Chapters Begin Here
+% ====================
+
+% ---------------------------------
 \chapter{INTRODUCTION}
+% ---------------------------------
 \section{Background}
-\lipsum[3-5]  % Dummy text for background
+\lipsum[3-5]  % Background information
 \cite{b1, b3}
 
 \section{Problem Statement}
@@ -31,7 +53,7 @@
 \cite{b2, b4}
 
 \section{Research Objectives}
-List the main objectives of your study in bullet points.
+% Present your research goals here.
 \begin{itemize}
     \item \lipsum[8]
     \item \lipsum[9]
@@ -41,7 +63,9 @@ List the main objectives of your study in bullet points.
 \section{Scope of Study}
 \lipsum[11-12]
 
+% ---------------------------------
 \chapter{LITERATURE REVIEW}
+% ---------------------------------
 \section{Introduction}
 \lipsum[13-15]
 \cite{b5, b7}
@@ -53,23 +77,28 @@ List the main objectives of your study in bullet points.
 \section{Research Gaps}
 \lipsum[19-21]
 
+% ---------------------------------
 \chapter{METHODOLOGY}
+% ---------------------------------
 \section{Proposed Approach}
 \lipsum[22-24]
 \cite{b9}
 
 \section{System Architecture}
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.8\linewidth]{Assets/system_architecture.png}  % Dummy image placeholder
-    \caption{System Architecture Diagram}
-    \label{fig:system_architecture}
-\end{figure}
+% You can include system architecture diagram here.
+%\begin{figure}[H]
+%   \centering
+%   \includegraphics[width=0.8\linewidth]{Assets/system_architecture.png}
+%   \caption{System Architecture Diagram}
+%   \label{fig:system_architecture}
+%\end{figure}
 
 \section{Implementation Details}
 \lipsum[25-27]
 
+% ---------------------------------------------
 \chapter{EXPERIMENTAL SETUP AND RESULTS}
+% ---------------------------------------------
 \section{Experimental Testbed}
 \lipsum[28-30]
 
@@ -91,14 +120,17 @@ List the main objectives of your study in bullet points.
 \lipsum[31-33]
 \cite{b10, b11}
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.8\linewidth]{Assets/performance_graph.png}  % Dummy image placeholder
-    \caption{Performance Evaluation Graph}
-    \label{fig:performance_graph}
-\end{figure}
+% Example chart placeholder
+%\begin{figure}[H]
+%   \centering
+%   \includegraphics[width=0.8\linewidth]{Assets/performance_graph.png}
+%   \caption{Performance Evaluation Graph}
+%   \label{fig:performance_graph}
+%\end{figure}
 
+% ----------------------
 \chapter{DISCUSSION}
+% ----------------------
 \section{Findings Analysis}
 \lipsum[34-36]
 
@@ -106,20 +138,28 @@ List the main objectives of your study in bullet points.
 \lipsum[37-39]
 \cite{b12}
 
+% ----------------------
 \chapter{CONCLUSION}
+% ----------------------
 \section{Summary of Findings}
 \lipsum[40-42]
 
 \section{Limitations and Future Work}
 \lipsum[43-45]
 
-% References
+% =====================
+% Bibliography Section
+% =====================
 \bibliographystyle{plain}
 \bibliography{bibliography/references}
 
-% Appendices (Optional)
+% =====================
+% Optional Appendices
+% =====================
+% Uncomment to include appendices
 %\appendix
 %\chapter{Appendix A}
 %\include{Appendices/AppendixA}
 
 \end{document}
+

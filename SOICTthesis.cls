@@ -1,3 +1,13 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%         Gautam Buddha University, Greater Noida, Utter Pradesh 
+%                      https://gbu.ac.in
+%          SOICT M.Tech  Thesis Template — Custom LaTeX Class
+%         Created by: [Your Name] — Share & Improve via GitHub
+%    GitHub Repository: https://github.com/ashish-kus/SOICT-Latex-Kit
+%    author : Ashish Kushwaha , ashish.kus2408@gmain.com, 7525874187
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{SOICTthesis}[2025/03/10 Custom Thesis Class for SOICT]
 

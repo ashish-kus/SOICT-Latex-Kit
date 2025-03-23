@@ -9,15 +9,14 @@
 \contentsline {section}{\numberline {2.3}Research Gaps}{7}{section.2.3}%
 \contentsline {chapter}{\numberline {3}METHODOLOGY}{8}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Proposed Approach}{9}{section.3.1}%
-\contentsline {section}{\numberline {3.2}System Architecture}{10}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Implementation Details}{10}{section.3.3}%
-\contentsline {chapter}{\numberline {4}EXPERIMENTAL SETUP AND RESULTS}{12}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Experimental Testbed}{13}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Performance Evaluation}{13}{section.4.2}%
-\contentsline {chapter}{\numberline {5}DISCUSSION}{15}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Findings Analysis}{16}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Comparison with Existing Approaches}{16}{section.5.2}%
-\contentsline {chapter}{\numberline {6}CONCLUSION}{18}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Summary of Findings}{19}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Limitations and Future Work}{19}{section.6.2}%
-\contentsline {chapter}{\numberline {7}*}{21}{chapter.7}%
+\contentsline {section}{\numberline {3.2}System Architecture}{9}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Implementation Details}{9}{section.3.3}%
+\contentsline {chapter}{\numberline {4}EXPERIMENTAL SETUP AND RESULTS}{11}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Experimental Testbed}{12}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Performance Evaluation}{12}{section.4.2}%
+\contentsline {chapter}{\numberline {5}DISCUSSION}{14}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Findings Analysis}{15}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Comparison with Existing Approaches}{15}{section.5.2}%
+\contentsline {chapter}{\numberline {6}CONCLUSION}{17}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Summary of Findings}{18}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Limitations and Future Work}{18}{section.6.2}%

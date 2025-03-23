@@ -2,75 +2,159 @@
 
 ## 🚀 Overview
 
-**SOICT-LaTeX-Kit** is a **modular and extensible LaTeX thesis system** built for students of **Gautam Buddha University (GBU)**. This kit provides a **structured, pre-formatted template** based on the university's academic requirements, ensuring that students can focus on writing without dealing with complex LaTeX formatting.
+**SOICT-LaTeX-Kit** is a modular and extensible LaTeX thesis/report template tailored for students of **Gautam Buddha University (GBU)**. This class-based LaTeX system streamlines academic writing by automating formatting, structure, and style as per the university's official requirements.
+
+---
 
 ## 🖼️ Preview
 
 ![Thesis Template Preview](./Assets/Preview.png)
 
+---
+
 ## 🎯 Who Is This For?
 
-✅ **GBU students** writing their thesis, dissertations, or technical reports.
-✅ Those who want a **pre-configured** LaTeX template that meets university formatting standards.
-✅ Researchers who want an **easy-to-modify**, structured, and automated writing system.
+- ✅ **GBU students** writing their B.Tech, M.Tech, or Ph.D. dissertations or reports.
+- ✅ Anyone looking for a **pre-formatted**, GBU-compliant LaTeX structure.
+- ✅ Researchers or students who prefer a **clean, modular, and editable LaTeX template**.
 
 ---
 
 ## 📦 Features
 
-✔ **Custom LaTeX Class (`.cls`)** – Structured formatting that follows GBU thesis guidelines.
-✔ **Pre-built Macros & Sectioning** – Auto-generated **table of contents, bibliography, figures, and numbering**.
-✔ **Overleaf & Local Compilation Support** – Use it **online or offline** with any LaTeX editor.
-✔ **Modular Chapter Structure** – Users can break chapters into separate files for easier management.
-✔ **GBU-Compliant Formatting** – Predefined styles for **title page, headers, and references**.
-✔ **No Dependencies Required** – Works out of the box with standard LaTeX compilers.
+- ✔ **Custom Class File** (`SOICTthesis.cls`) built on the `report` class.
+- ✔ Auto-generated **Title Page, Declaration, Acknowledgment**, TOC, LOF, LOT, and Bibliography.
+- ✔ **Minimal setup** – ready to compile on **Overleaf** or any LaTeX IDE (TeXstudio, VS Code, etc.).
+- ✔ Preloaded support for **algorithms**, **figures**, **tables**, and **references**.
+- ✔ Easy **modular chapter inclusion** via `\include{}` or inline sections.
+
+---
+
+## 📐 Formatting Standards
+
+| 🧱 **Element**                  | 🎨 **Specification**                                               |
+| ------------------------------- | ------------------------------------------------------------------ |
+| **Base Class**                  | `report` (`a4paper`, `12pt`)                                       |
+| **Font**                        | Times (`\usepackage{times}`)                                       |
+| **Line Spacing**                | 1.5 (`\onehalfspacing`)                                            |
+| **Text Justification**          | Fully justified (`\justifying`)                                    |
+| **Paragraph Indent**            | `0pt`                                                              |
+| **Paragraph Skip**              | `6pt`                                                              |
+| **Margins**                     | Left: 2.5cm, Right: 1.5cm, Top/Bottom: 1in                         |
+| **Chapters**                    | Centered, `CHAPTER-X` label with uppercase headings                |
+| **TOC / LOF / LOT Headings**    | Bold, centered, uppercase                                          |
+| **Bibliography Label**          | "REFERENCES", centered (styled as `\section*`)                     |
+| **Title Page Generation**       | Auto-filled via commands like `\thesistitle{}` and `\authorname{}` |
+| **Declaration Page**            | Auto-generated with prefilled supervisor/student data              |
+| **Acknowledgment Page**         | Included by default with command `\acknowledgement`                |
+| **Figures and Tables**          | Use `[H]` placement (via `float` package)                          |
+| **Image Directory**             | All figures should reside inside `Assets/`                         |
+| **Clickable References**        | Enabled (`hyperref`)                                               |
+| **Abbreviations Section**       | Placeholder via `\startAbbreviations`                              |
+| **Header/Footer Support**       | Included (`fancyhdr`) – can be extended                            |
+| **Compiler Compatibility**      | XeLaTeX, PDFLaTeX, Overleaf                                        |
+| **Anti-Plagiarism Declaration** | Included in candidate declaration automatically                    |
+
+---
+
+## 🔧 Auto-Fill Metadata Commands
+
+Customize your report by setting the following fields in `Thesis.tex`:
+
+```latex
+\thesistitle{Your Thesis Title}
+\authorname{Your Name}
+\degree{B.Tech / M.Tech / Ph.D}
+\program{CSE / IT / etc.}
+\specialization{AI / Data Science / etc.}
+\university{Gautam Buddha University}
+\submissiondate{March 2025}
+\enrollmentno{GBU/21XXX}
+\supervisor{Dr. Supervisor Name}{Professor, Department of CSE}
+```
+
+````
 
 ---
 
 ## 📥 Installation & Usage
 
-You can use this template **locally** or on **Overleaf**.
-
-### 📌 1. Clone or Download the Repository
+### 📌 1. Clone or Download
 
 ```bash
 git clone https://github.com/yourusername/SOICT-LaTeX-Kit.git
 ```
 
-Or **download the ZIP** from GitHub and extract it.
+Or download the ZIP archive and extract it locally.
 
-### 📌 2. Modify the `Thesis.tex` File
+---
 
-- Open `Thesis.tex` in a LaTeX editor.
-- Fill in your **title, author name, enrollment number, supervisor details**, etc.
-- Modify the **chapters** directly inside `Thesis.tex` OR create separate `.tex` files for each chapter and `\include{}` them.
+### 📌 2. Edit Your Thesis
+
+- Open `Thesis.tex`.
+- Replace the placeholders with your actual content.
+- Add or modify sections as needed.
+- Use `\chapter{}` and `\section{}` to structure your report.
+
+---
 
 ### 📌 3. Compile the Document
 
-- **Recommended Compiler**: Use **XeLaTeX** for best results.
-- Compile via **Overleaf** or any LaTeX editor like **TeXworks, TeXstudio, VS Code with LaTeX Workshop**.
+- **Preferred Compiler:** XeLaTeX
+- Supported on: **Overleaf**, **TeXstudio**, **VS Code** (with LaTeX Workshop), etc.
 
 ---
 
-## 🛠️ Customization
+## 🛠️ Customization Tips
 
-- **Modify Formatting?** If you want to tweak layouts, adjust the `SOICTthesis.cls` file.
-- **Adding More Chapters?** Create additional `.tex` files inside `/Chapters` and `\include{}` them in `Thesis.tex`.
-- **Generalizing for Other Universities?** Please **consult a faculty member** and submit a **PR (Pull Request)** with their recommendation.
-
----
-
-## 🔄 Future Plans & Maintenance
-
-🎓 This will be the **official LaTeX thesis format** for Gautam Buddha University.
-🛠️ The repository will be actively **maintained and updated** as per university requirements.
-📌 **Overleaf Template Coming Soon!**
+- Want to **modify layouts or margins**? Edit `SOICTthesis.cls`.
+- Need to **add more chapters**? Use `\include{Chapters/ChapterName}`.
+- Generalizing for **non-GBU use**? Please consult your supervisor and open a PR.
 
 ---
 
-## ❗ License & Contributions
+## 🔄 Maintenance & Future Updates
 
-📜 **License:** Pending official university approval.
-🤝 **Contributions:** PRs are welcome for **bug fixes, optimizations, or university-approved modifications**.
+- 🎓 Aimed to become the **standard template** for all GBU SOICT submissions.
+- 🛠️ Periodically updated based on faculty or university recommendations.
+- 📌 **Overleaf Template Upload Pending** (will be linked here soon).
 
-📬 **For questions or feedback, feel free to open an issue!**
+---
+
+## 🧪 Contribution Guidelines
+
+### 🤝 Contributions Welcome!
+
+This is a **community-supported template**. Feel free to open issues or submit PRs to improve it.
+
+### 📬 Support & Feedback
+
+- Found a bug or typo? [Open an Issue](https://github.com/yourusername/SOICT-LaTeX-Kit/issues)
+- Want to contribute a feature? Submit a Pull Request!
+
+---
+
+## 🪪 License
+
+Pending official university approval. Until then, it is intended for **personal academic use only**.
+
+---
+
+## 🖋️ Author Note
+
+> This project is maintained by the student community of GBU SOICT.
+> If you found it useful, consider giving it a ⭐️ or sharing with your peers!
+
+---
+
+## 🔗 Repository
+
+[🌐 GitHub Repository](https://github.com/ashish-kus/SOICT-LaTeX-Kit)
+
+```
+
+---
+
+Let me know if you want a cleaned-up `.zip` ready for Overleaf or help generating a `.cls` documentation file!
+```
+````
