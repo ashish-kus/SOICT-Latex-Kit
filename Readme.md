@@ -61,7 +61,7 @@
 
 Customize your report by setting the following fields in `Thesis.tex`:
 
-```latex
+````latex
 \thesistitle{Your Thesis Title}
 \authorname{Your Name}
 \degree{B.Tech / M.Tech / Ph.D}
@@ -71,11 +71,6 @@ Customize your report by setting the following fields in `Thesis.tex`:
 \submissiondate{March 2025}
 \enrollmentno{GBU/21XXX}
 \supervisor{Dr. Supervisor Name}{Professor, Department of CSE}
-```
-
-````
-
----
 
 ## 📥 Installation & Usage
 
@@ -83,7 +78,7 @@ Customize your report by setting the following fields in `Thesis.tex`:
 
 ```bash
 git clone https://github.com/yourusername/SOICT-LaTeX-Kit.git
-```
+````
 
 Or download the ZIP archive and extract it locally.
 
@@ -151,10 +146,10 @@ Pending official university approval. Until then, it is intended for **personal 
 
 [🌐 GitHub Repository](https://github.com/ashish-kus/SOICT-LaTeX-Kit)
 
-```
-
 ---
 
 Let me know if you want a cleaned-up `.zip` ready for Overleaf or help generating a `.cls` documentation file!
+
 ```
-````
+
+```
