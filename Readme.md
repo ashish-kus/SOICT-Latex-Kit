@@ -1,5 +1,7 @@
 # 📜 SOICT-LaTeX-Kit – Thesis & Report Template for Gautam Buddha University
 
+---
+
 ## 🚀 Overview
 
 **SOICT-LaTeX-Kit** is a modular and extensible LaTeX thesis/report template tailored for students of **Gautam Buddha University (GBU)**. This class-based LaTeX system streamlines academic writing by automating formatting, structure, and style as per the university's official requirements.
