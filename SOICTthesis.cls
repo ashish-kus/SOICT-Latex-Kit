@@ -113,7 +113,6 @@
         \textbf{\large CANDIDATE DECLARATION}
     \end{center}
 
-    \flushleft  % ✅ Fixes Underfull \hbox issues
 
     \noindent I hereby certify that the work embodied in this dissertation entitled 
     ``\textbf{\@thesistitle}", by \textbf{\@authorname}, Roll No. \textbf{\@enrollmentno} in partial fulfillment of the requirement for the award of the degree of 
